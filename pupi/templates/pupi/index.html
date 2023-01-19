@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Hello, World weed web!<br>
+<form method="post">
+    {% csrf_token %}
+    <p>
+    <input name="name" placeholder="Как тебя зовут педрила?" />
+    </p>
+    <p>
+    <input name="email" placeholder="И почту свою напиши, я тебя вычислю и выебу" /><br>
+    </p>
+    <p>
+    <textarea name="message" placeholder="Ответь что нибудь мямля ебаная"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="Попробуй нажми собака">
+    </p>
+</form>
+</body>
+</html>
